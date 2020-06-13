@@ -17,22 +17,18 @@ layout: compress
             <div class="content">
                 <div class="post-title">
                     <h1>{{ page.title }}</h1>
-                    <a class="btn zoombtn" href="{{site.url}}">
+                    <a class="btn zoombtn" href="https://mzj-001.github.io/Moon/">
                         <i class="fa fa-home"></i>
                     </a>
                 </div>
-                <div class="post-list">
-                    {% for post in site.posts %} 
-                        {% if post.project %}
-                    <ul>
-                        <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                            <p>{{ post.excerpt }}</p>
-                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
-                        </li>
-                    </ul>
-                      {% endif %}
-                    {% endfor %}
+                <div class="post-list"> 
+                    <ul> 
+                        <li class="wow fadeInLeft" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInLeft;"> 
+                            <a class="zoombtn" href="https://mzj-001.github.io/Moon/moon-theme/">Moon Jekyll Theme</a> 
+                            <p>Minimal, one column Jekyll theme for your blog.</p> 
+                            <a href="https://mzj-001.github.io/Moon/moon-theme/" class="btn zoombtn">Read More</a> 
+                        </li> 
+                    </ul> 
                 </div>
             </div>
         </div>
