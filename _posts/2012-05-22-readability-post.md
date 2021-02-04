@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Testing Readability with a Bunch of Text"
+title: "电脑小常识"
 date: 2020
-excerpt: "A ton of text to test readability."
+excerpt: "em"
 tags: [sample post, readability, test]
 comments: true
 ---
